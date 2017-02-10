@@ -1,0 +1,27 @@
+//Variables:
+$pcolor: #e74c3c;
+
+html{
+    //background-color: blue;
+}
+.nav{
+    ul{
+      list-style-type: none;
+      position: fixed;
+      width: 100%;
+      margin: auto;
+      color: gray;
+      background: $pcolor;
+      font-style: normal;
+    }
+    li{
+      padding: 10px;
+      display: inline;
+    }
+    a{
+      text-decoration: none;
+    }
+    &:hover{
+      color: red;
+    }
+}

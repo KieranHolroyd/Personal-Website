@@ -1,0 +1,17 @@
+.nav ul {
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  color: gray;
+  background: #e74c3c;
+  font-style: normal; }
+.nav li {
+  padding: 10px;
+  display: inline; }
+.nav a {
+  text-decoration: none; }
+.nav:hover {
+  color: red; }
+
+/*# sourceMappingURL=main.css.map */
